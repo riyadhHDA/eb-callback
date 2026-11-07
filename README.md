@@ -1,6 +1,7 @@
 # eb-callback
 
-Page de retour OAuth pour l'outil `Outils/banques-enable-banking` (Enable Banking / PSD2).
+Page de retour d'autorisation pour une application personnelle de suivi budgetaire (PSD2).
 
 Affiche le parametre `code` present dans l'URL de redirection et permet de le copier.
-Aucune donnee n'est transmise : la page est entierement statique et ne fait aucun appel reseau.
+Page statique : aucun cookie, aucun appel reseau, aucune donnee transmise.
+Le parametre est retire de la barre d'adresse des sa lecture.

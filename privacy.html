@@ -3,14 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>Confidentialité — page de retour</title>
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Confidentialité</title>
 <style>
   body { margin:0; padding:48px 24px; font-family:-apple-system,"Segoe UI",Roboto,sans-serif;
          line-height:1.6; color:#11181f; background:#f6f7f9; }
-  main { max-width:640px; margin:0 auto; background:#fff; border:1px solid #e2e6ea;
+  main { max-width:600px; margin:0 auto; background:#fff; border:1px solid #e2e6ea;
          border-radius:16px; padding:32px; }
-  h1 { font-size:20px; margin:0 0 20px; } h2 { font-size:15px; margin:26px 0 6px; }
+  h1 { font-size:19px; margin:0 0 20px; } h2 { font-size:15px; margin:26px 0 6px; }
   p, li { font-size:14.5px; } ul { padding-left:20px; }
   a { color:#12885c; }
   @media (prefers-color-scheme: dark) {
@@ -24,37 +27,36 @@
 <main>
   <h1>Politique de confidentialité</h1>
 
-  <p>Cette page fait partie de <em>eb-callback</em>, une page de retour d'autorisation
-  utilisée par une application <strong>personnelle</strong> de suivi budgétaire
-  (outil <code>banques-enable-banking</code>), exploitée par un particulier pour ses
-  propres comptes bancaires. Elle n'est pas un service public.</p>
+  <p>Cette page est une page de retour d'autorisation, utilisée par une application
+  <strong>personnelle</strong> de suivi budgétaire. Elle n'est pas un service public et
+  n'est pas destinée à des tiers.</p>
 
   <h2>Données collectées</h2>
   <p><strong>Aucune.</strong> La page est entièrement statique :</p>
   <ul>
     <li>aucun cookie, aucun traceur, aucune mesure d'audience ;</li>
-    <li>aucun appel réseau vers un tiers ;</li>
-    <li>les paramètres présents dans l'adresse (<code>code</code>, <code>state</code>)
-        sont lus par le navigateur et affichés à l'écran ; ils ne sont
-        <strong>jamais transmis</strong> ni enregistrés par cette page.</li>
+    <li>aucun appel réseau, aucune ressource externe ;</li>
+    <li>les paramètres présents dans l'adresse sont lus par le navigateur, affichés à
+        l'écran, puis <strong>effacés de la barre d'adresse</strong> ; ils ne sont ni
+        transmis ni enregistrés par cette page.</li>
   </ul>
 
   <h2>Hébergement</h2>
-  <p>La page est hébergée par GitHub Pages. Comme tout hébergeur, GitHub peut journaliser
-  les adresses IP des visiteurs selon sa propre politique de confidentialité, indépendante
-  de cette application.</p>
+  <p>La page est hébergée par un service d'hébergement statique. Comme tout hébergeur, il
+  peut journaliser les adresses IP et les chemins demandés selon sa propre politique,
+  indépendante de cette application.</p>
 
   <h2>Données bancaires</h2>
   <p>Cette page ne reçoit ni identifiant, ni mot de passe, ni donnée de compte.
-  L'authentification bancaire a lieu exclusivement sur le site de la banque. Le code
+  L'authentification a lieu exclusivement sur le site de la banque. Le code
   d'autorisation affiché est à usage unique et ne permet aucun accès sans la clé privée
-  de l'application, détenue localement par l'utilisateur.</p>
+  de l'application, détenue localement.</p>
 
   <h2>Contact</h2>
-  <p>Pour toute question relative aux données personnelles :
-  <a href="mailto:riyadhhadjba@gmail.com">riyadhhadjba@gmail.com</a>.</p>
+  <p>Aucune donnée personnelle n'étant traitée par cette page, elle n'appelle pas de
+  responsable de traitement à contacter.</p>
 
-  <p style="margin-top:28px"><a href="./">← Retour à la page d'autorisation</a></p>
+  <p style="margin-top:28px"><a href="./">← Retour</a></p>
 </main>
 </body>
 </html>
